@@ -1,0 +1,16 @@
+load("@rules_cc//cc:defs.bzl", "cc_test")
+
+cc_import(
+    
+)
+
+cc_test(
+    name = "hello_test",
+    srcs = [ 
+        "hello_test.cc", 
+    ],  
+    deps = [ 
+        "//hello:hello",
+        "@googletest//:gtest_main",
+    ],  
+)
