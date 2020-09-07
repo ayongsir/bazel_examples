@@ -1,2 +1,2 @@
 gtest gmock 
-static lib
+static lib examples

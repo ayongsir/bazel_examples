@@ -4,6 +4,8 @@
 
 TEST(TestHello, HelloMethod0) {
     ASSERT_TRUE(0);
+
+    ASSERT_TRUE(1);
 }
 
 TEST(TestHello, HelloMethod1) {
