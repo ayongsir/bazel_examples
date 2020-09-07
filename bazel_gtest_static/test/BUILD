@@ -15,7 +15,7 @@ cc_import(
 cc_test(
     name = "hello_test",
     srcs = [ 
-        "hello_test.cc", 
+        "hello_test.cc",
     ],  
     deps = [ 
         "//hello:hello",
